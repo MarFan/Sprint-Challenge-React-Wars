@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Container, Row} from 'reactstrap';
 import FilmList from './components/FilmList'
 import CharacterList from './components/CharacterList'
