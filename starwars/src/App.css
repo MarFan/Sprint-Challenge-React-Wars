@@ -1,8 +1,31 @@
-.App {
-  text-align: center;
-}
+.App {}
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #fff;
+  /* text-shadow: 1px 1px 5px #666; */
 }
+
 /* write your parent styles in here for your App.js */
+
+.poster {
+  margin-bottom: 24px;
+  transition: transform .25s;
+}
+
+.poster:hover{
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.characters {
+  color: black;
+}
+
+.charCard {
+  margin-bottom: 12px;
+}
+
+.charDetail {
+  font-size: 11px;
+  color: black;
+  text-transform: uppercase;
+}
